@@ -8,12 +8,12 @@
 Summary:	Crypt::Anubis - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Abubis - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Anubis
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cadaf2a0804c5dcafdce2051e33c617c
+# Source0-md5:	aa62fb3a199063b5dff8bcbfc632338e
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
