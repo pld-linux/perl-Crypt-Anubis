@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Anubis
+%define		pdir	Crypt
+%define		pnam	Anubis
 Summary:	Crypt::Anubis - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Abubis - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Anubis
