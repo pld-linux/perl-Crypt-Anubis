@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Anubis
 Summary:	Crypt::Anubis - Crypt::CBC-compliant block cipher
-Summary(pl):	Crypt::Abubis - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):   Crypt::Abubis - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Anubis
 Version:	1.0.4
 Release:	1
@@ -25,12 +25,12 @@ Vincent Rijmen and Paulo S. L. M. Barreto. Key length can be 128, 160,
 implementation is 128 bits (16 bytes). This module supports the
 Crypt::CBC interface.
 
-%description -l pl
-Anubis to 128-bitowy szyfr blokowy o zmiennej d≥ugo∂ci klucza
-opracowany przez Vincenta Rijmena i Paulo S. L. M. Baretto. Klucz moøe
-mieÊ d≥ugo∂Ê 128, 160, 192, 224, 256, 228 lub 320 bitÛw. Domy∂lna
-d≥ugo∂Ê klucza w tej implementacji to 128 bitÛw (16 bajtÛw). Ten modu≥
-obs≥uguje interfejs Crypt::CBC.
+%description -l pl.UTF-8
+Anubis to 128-bitowy szyfr blokowy o zmiennej d≈Çugo≈õci klucza
+opracowany przez Vincenta Rijmena i Paulo S. L. M. Baretto. Klucz mo≈ºe
+mieƒá d≈Çugo≈õƒá 128, 160, 192, 224, 256, 228 lub 320 bit√≥w. Domy≈õlna
+d≈Çugo≈õƒá klucza w tej implementacji to 128 bit√≥w (16 bajt√≥w). Ten modu≈Ç
+obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
