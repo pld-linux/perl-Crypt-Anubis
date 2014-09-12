@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Anubis.pm
 %dir %{perl_vendorarch}/auto/Crypt/Anubis
-%{perl_vendorarch}/auto/Crypt/Anubis/Anubis.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Anubis/Anubis.so
 %{_mandir}/man3/*
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
